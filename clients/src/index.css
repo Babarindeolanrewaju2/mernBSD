@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  font-family: "CircularStd-Book";
+  color: #000;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.topPadding {
+  padding: 70px;
+}
+
+@font-face {
+  font-family: "CircularStd-Light";
+  src: local("CircularStd-Light"),
+    url(./CircularStd-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "CircularStd-Book";
+  src: local("CircularStd-Book"), url(./CircularStd-Book.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "MarkSimonsonProximaSoft";
+  src: local("MarkSimonsonProximaSoft"),
+    url(./MarkSimonsonProximaSoftLight.otf) format("opentype");
+}
+
+div,
+p {
+  /* font-family: "MarkSimonsonProximaSoft"; */
+  font-family: "CircularStd-Book";
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
