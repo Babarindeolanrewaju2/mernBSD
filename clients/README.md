@@ -8,5 +8,5 @@ In the project directory, you can run:
 
 ### `yarn install`
 
-please run the command "yarn install" in the client directory to install all the packages.
+please run the command "yarn install" in the clients directory to install all the packages.
 
